@@ -1,0 +1,43 @@
+﻿<Window x:Class="ExampleAppWPF.DialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExampleAppWPF"
+        mc:Ignorable="d"
+        Title="DialogBox"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Width="{DynamicResource DialogBoxWidth}"
+        Height="{DynamicResource DialogBoxHeight}">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Colours.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+  
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="{DynamicResource DialogBoxWidth}" Height="{DynamicResource DialogBoxHeight}">
+        <Border BorderThickness="2" BorderBrush="{StaticResource Gold}" />
+        <StackPanel Orientation="Vertical" Width="{DynamicResource DialogBoxInnerWidth}" Height="{DynamicResource DialogBoxInnerHeight}">
+            <Grid Height="{DynamicResource DialogBoxTitleContainerHeight}">
+                <TextBlock Text="{Binding TitleText}" HorizontalAlignment="Center" VerticalAlignment="Bottom" TextAlignment="Justify" FontWeight="Bold" FontSize="{DynamicResource DialogBoxTitleFontSize}" Foreground="{StaticResource Gold}" Width="{DynamicResource DialogBoxTitleWidth}" />
+            </Grid>
+            <Grid Height="{DynamicResource DialogBoxMessageContainerHeight}">
+                <TextBlock Text="{Binding MessageText}" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Justify" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" FontSize="{DynamicResource DialogBoxMessageFontSize}" Foreground="{StaticResource Gold}" Width="{DynamicResource DialogBoxMessageWidth}" Height="{DynamicResource DialogBoxMessageHeight}" />
+            </Grid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="{DynamicResource DialogBoxButtonContainerHeight}">
+                <Button Width="{DynamicResource DialogBoxButtonWidth}" Style="{StaticResource TextButton}" Content="{Binding AcceptButtonText}" Click="OnAcceptButtonClick" />
+                <Grid Width="{DynamicResource DialogBoxButtonGap}" />
+                <Button Width="{DynamicResource DialogBoxButtonWidth}" Style="{StaticResource TextButton}" Content="{Binding CancelButtonText}" Click="OnCancelButtonClick" IsCancel="True" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

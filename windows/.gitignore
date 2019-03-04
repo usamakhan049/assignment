@@ -1,0 +1,5 @@
+/nuget.exe
+/libs
+/WinBuild
+*.suo
+*.opendb

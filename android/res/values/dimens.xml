@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_button_margin">28dp</dimen>
+    <dimen name="search_result_anchor_margin">50dp</dimen>
+    <dimen name="search_clear_button_size">20dp</dimen>
+    <dimen name="search_results_bar_width">282dp</dimen>
+    <dimen name="search_menu_edit_text_background_width">195dp</dimen>
+    <dimen name="search_menu_result_cell_height">44dp</dimen>
+    <dimen name="search_editext_width">295dp</dimen>
+    <dimen name="search_menu_result_cell_divider_height">1dp</dimen>
+    <dimen name="menu_item_header_height">42dp</dimen>
+    <dimen name="menu_subitem_height">39dp</dimen>
+    <dimen name="menu_section_divider_height">6dp</dimen>
+    <dimen name="menu_item_divider_height">1dp</dimen>
+    <dimen name="menu_item_footer_padding_height">2dp</dimen>
+    <dimen name="menu_button_top_offset">20dp</dimen>
+    <dimen name="main_button_size">60dp</dimen>
+    <dimen name="poi_creation_share_button_size">25dp</dimen>
+    <dimen name="search_menu_clear_button_size">20dp</dimen>
+    <dimen name="menu_title_height">27dp</dimen>
+    <dimen name="scrollbars_width">5dp</dimen>
+
+    <dimen name="interiors_explorer_view_required_space">250dp</dimen>
+
+    <dimen name="nav_reroute_dialog_width">300dp</dimen>
+    <dimen name="nav_reroute_dialog_msg_width">250dp</dimen>
+    <dimen name="nav_reroute_dialog_margin_large">8dp</dimen>
+    <dimen name="nav_reroute_dialog_margin_medium">4dp</dimen>
+    <dimen name="nav_reroute_dialog_margin_small">2dp</dimen>
+    <dimen name="nav_reroute_dialog_btn_line_size">1dp</dimen>
+    <dimen name="nav_reroute_dialog_btn_text_size">17sp</dimen>
+    <dimen name="nav_reroute_dialog_btn_subtext_size">14sp</dimen>
+    <dimen name="nav_reroute_dialog_label_size">22sp</dimen>
+    <dimen name="nav_reroute_dialog_msg_size">14sp</dimen>
+
+    <dimen name="nav_calculating_route_width">300dp</dimen>
+    <dimen name="nav_calculating_route_spinner_size">100dp</dimen>
+    <dimen name="nav_calculating_route_margin_large">8dp</dimen>
+    <dimen name="nav_calculating_route_margin_medium">4dp</dimen>
+    <dimen name="nav_calculating_route_label_size">22sp</dimen>
+
+    <dimen name="nav_search_margin">21dp</dimen>
+    <dimen name="nav_search_top_margin">10dp</dimen>
+    <dimen name="nav_search_hint_margin">29dp</dimen>
+    <dimen name="nav_search_hint_top_margin">80dp</dimen>
+</resources>

@@ -1,0 +1,238 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/poi_creation_details_main"
+	android:orientation="vertical"
+	android:layout_width="400dp"
+	android:layout_height="900dp"
+	android:layout_centerInParent="true"
+	android:background="@color/white">
+
+	<!-- Title bar -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:paddingLeft="20dp"
+		android:paddingRight="16dp">
+
+		<EditText
+			android:id="@+id/poi_creation_details_title_edit_text"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:gravity="fill_horizontal|center_vertical"
+			android:layout_weight="1"
+			android:background="@color/white"
+			android:hint="@string/poi_creation_details_title_hint"
+			android:textColor="@color/darksteelblue"
+			android:textColorHint="@color/lightgrey"
+			android:textSize="20sp"
+			android:imeOptions="actionDone"
+			android:inputType="text"
+			android:lines="0"
+			android:maxLength="100"
+			android:maxLines="1"/>
+
+		<Button
+			android:id="@+id/poi_creation_details_button_close"
+			android:layout_width="36dp"
+			android:layout_height="36dp"
+			android:gravity="right|center_vertical"
+			style="?android:attr/borderlessButtonStyle"
+			android:background="@drawable/button_pin_close_states"/>
+
+	</LinearLayout>
+
+	<!--  Separator -->
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:background="@color/darksteelblue"/>
+
+	<!--  Scrolling details section -->
+	<ScrollView
+		android:id="@+id/poi_creation_details_scroll_section"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:fillViewport="true"
+		android:background="@color/white"
+		android:scrollbarThumbVertical="@color/scrollbars"
+		android:scrollbarSize="@dimen/scrollbars_width"
+		android:scrollbarFadeDuration="0">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<EditText
+				android:id="@+id/poi_creation_details_description"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:layout_marginTop="15dp"
+				android:layout_marginBottom="15dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:padding="8dp"
+				android:background="@drawable/pin_edit_details"
+				android:hint="@string/poi_creation_details_description_hint"
+				android:imeOptions="actionDone"
+				android:inputType="text|textMultiLine"
+				android:textColorHint="@color/lightgrey"
+				android:gravity="top|left"
+				android:textSize="15.0dp"
+				android:maxLength="10000"
+                android:lines="10" />
+
+			<ImageView
+				android:id="@+id/poi_creation_details_image"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:adjustViewBounds="true"
+				android:contentDescription="@string/poi_creation_details_image"
+				android:scaleType="fitCenter"
+				android:src="@drawable/image_blank" />
+
+			<!--  Share & T&C bar -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="35dp"
+				android:layout_marginBottom="35dp"
+				android:background="@color/white">
+
+				<ImageView
+					android:id="@+id/my_pin_creation_details_share_icon"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_centerVertical="true"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="20dp"
+					android:scaleType="centerInside"
+					android:src="@drawable/share" />
+
+				<TextView
+					android:id="@+id/my_pin_creation_details_share_text"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="2dp"
+					android:gravity="center_vertical"
+					android:layout_toRightOf="@id/my_pin_creation_details_share_icon"
+					android:text="@string/poi_creation_details_share"
+					android:textColor="@color/grey"
+					android:textStyle="italic"
+					android:textSize="16sp" />
+
+				<TextView
+					android:id="@+id/poi_creation_details_terms_conditions_link"
+					android:layout_width="150dp"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="5dp"
+					android:gravity="center_vertical"
+					android:layout_toRightOf="@id/my_pin_creation_details_share_text"
+					android:text="@string/poi_creation_details_terms_conditions"
+					android:textColor="@color/darkgrey"
+					android:textSize="12sp"/>
+
+				<ToggleButton
+					android:id="@+id/poi_creation_details_share_togglebutton"
+					android:layout_width="36dp"
+					android:layout_height="18dp"
+					android:gravity="center_vertical"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:layout_marginRight="20dp"
+					android:background="@drawable/slider_checkbox_states"
+					android:checked="true"
+					android:textOff=""
+					android:textOn="" />
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+	<!-- end scrolling details section -->
+
+	<!-- Bottom separator -->
+	<View
+		android:layout_above="@+id/footer"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/darksteelblue"/>
+
+	<!-- footer -->
+	<LinearLayout
+		android:id="@+id/footer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@color/whitesmoke">
+
+		<!--  Button bar -->
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:orientation="horizontal"
+				android:baselineAligned="false">
+
+				<RelativeLayout
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.33">
+					<ImageView
+						android:id="@+id/poi_creation_details_button_photo"
+						android:layout_width="wrap_content"
+						android:layout_height="60dp"
+						android:scaleType="centerInside"
+						android:layout_centerInParent="true"
+						android:background="@drawable/button_pin_creation_color_states"
+						android:src="@drawable/button_photo_states"/>
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.34">
+					<ImageView
+						android:id="@+id/poi_creation_details_button_gallery"
+						android:layout_width="wrap_content"
+						android:layout_height="60dp"
+						android:scaleType="centerInside"
+						android:layout_centerInParent="true"
+						android:background="@drawable/button_pin_creation_color_states"
+						android:src="@drawable/button_gallery_states"/>
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.33">
+					<ImageView
+						android:id="@+id/poi_creation_details_button_submit"
+						android:layout_width="wrap_content"
+						android:layout_height="60dp"
+						android:scaleType="centerInside"
+						android:layout_centerInParent="true"
+						android:background="@drawable/button_pin_creation_color_states"
+						android:src="@drawable/button_pin_ok_states"/>
+				</RelativeLayout>
+
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<!-- end footer -->
+
+</LinearLayout>

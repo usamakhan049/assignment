@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "Bangkok",
+        "Latitude": 13.747348,
+        "Longitude": 100.533493,
+        "HeadingDegrees":44.9,
+        "Distance": 1595.6,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Chicago",
+        "Latitude": 41.882276,
+        "Longitude": -87.629201,
+        "HeadingDegrees":51.2,
+        "Distance": 2517.5,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Dundee",
+        "Latitude": 56.458598,
+        "Longitude": -2.969868,
+        "Distance": 1471.8,
+        "HeadingDegrees": 345.1,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Edinburgh",
+        "Latitude": 55.948991,
+        "Longitude": -3.199949,
+        "HeadingDegrees": 115.4,
+        "Distance": 1399.9,
+        "Icon": "pin"
+    },
+    {
+        "Name": "London",
+        "Latitude": 51.51122,
+        "Longitude": -0.081494,
+        "Distance": 2104.7,
+        "HeadingDegrees": 142.1,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Milan",
+        "Latitude": 45.474097,
+        "Longitude": 9.177512,
+        "Distance": 2086.6,
+        "HeadingDegrees": 191,
+        "Icon": "pin"
+    },
+    {
+        "Name": "New York",
+        "Latitude": 40.710184,
+        "Longitude": -74.012957,
+        "Distance": 2437.6,
+        "HeadingDegrees": 66.1,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Oslo",
+        "Latitude": 59.907757,
+        "Longitude": 10.752348,
+        "Distance": 1438,
+        "HeadingDegrees": 59.6,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Rio de Janeiro",
+        "Latitude": -22.948350,
+        "Longitude": -43.207783,
+        "Distance": 1576.10181,
+        "HeadingDegrees": 46.298,
+        "Icon": "pin"
+    },
+    {
+        "Name": "San Francisco",
+        "Latitude": 37.791592,
+        "Longitude": -122.39937,
+        "Distance": 2076.6,
+        "HeadingDegrees": 0.5,
+        "Icon": "pin"
+    },
+    {
+        "Name": "Vancouver",
+        "Latitude": 49.289009,
+        "Longitude": -123.125933,
+        "Distance": 1995.2,
+        "HeadingDegrees": 261.4,
+        "Icon": "pin"
+    }
+]

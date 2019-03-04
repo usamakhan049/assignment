@@ -1,0 +1,84 @@
+{
+    "name": "WRLD App",
+    "eegeo_api_key": "ebbe9507649d37c8daedc2bb8abd723b",
+    "start_location_latitude": 37.7858,
+    "start_location_longitude": -122.401,
+    "start_location_altitude": 2.7,
+    "start_location_distance": 1781.0,
+    "start_location_orientation_degrees": 0.0,
+    "start_location_indoor_id": "",
+    "start_location_floor_index": 0,
+    "try_start_at_gps_location": true,
+    "perform_start_up_search": false,
+    "start_up_search_tag": "",
+    "coveragetree_manifest_url": "",
+    "theme_manifest_url": "",
+    "google_analytics_referrer_token":"mea_android",
+    "flurry_app_key": "",
+    "yelp_api_key": "",
+    "geonames_username": "",
+    "eegeo_search_service_url": "",
+    "mypins_web_service_url": "",
+    "mypins_web_service_auth_token": "",
+    "mypins_poi_set_id": "",
+    "javascript_whitelist_url": "wrld-data-service.s3-us-west-2.amazonaws.com",
+    "use_japanese_font": false,
+    "use_chinese_font": false,
+    "hockey_app_id":"",
+    "timer_survey_url":"",
+    "enable_navigation": false,
+    "compass_camera_offset": {
+      "offset": 0.0,
+      "offset_top_down": 0.0
+    },
+    "compass_camera_damping_enabled": true,
+    "outdoor_search_menu_items": [{
+                                  "name": "Around Me",
+                                  "search_tag": "",
+                                  "icon_key": "aroundme"
+                                  }, {
+                                  "name": "Accommodation",
+                                  "search_tag": "accommodation",
+                                  "icon_key": "accommodation"
+                                  }, {
+                                  "name": "Art & Museum",
+                                  "search_tag": "art",
+                                  "icon_key": "art"
+                                  }, {
+                                  "name": "Business",
+                                  "search_tag": "business",
+                                  "icon_key": "business"
+                                  }, {
+                                  "name": "Entertainment",
+                                  "search_tag": "entertainment",
+                                  "icon_key": "entertainment"
+                                  }, {
+                                  "name": "Food & Drink",
+                                  "search_tag": "food_drink",
+                                  "icon_key": "food_drink"
+                                  }, {
+                                  "name": "General Amenities",
+                                  "search_tag": "general",
+                                  "icon_key": "general"
+                                  }, {
+                                  "name": "Health",
+                                  "search_tag": "health",
+                                  "icon_key": "health"
+                                  }, {
+                                  "name": "Shopping",
+                                  "search_tag": "shopping",
+                                  "icon_key": "shopping"
+                                  }, {
+                                  "name": "Sport & Leisure",
+                                  "search_tag": "sports",
+                                  "icon_key": "sports"
+                                  }, {
+                                  "name": "Tourist info",
+                                  "search_tag": "tourist_info",
+                                  "icon_key": "tourist_info"
+                                  }, {
+                                  "name": "Transport",
+                                  "search_tag": "transport",
+                                  "icon_key": "bus"
+                                  }]
+}

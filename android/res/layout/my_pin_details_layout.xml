@@ -1,0 +1,196 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_pin_details_view">
+
+    <android.support.constraint.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/left_guideline"
+        app:layout_constraintGuide_percent="@fraction/poiCreationLeftGuidePercentage"
+        android:orientation="vertical"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/right_guideline"
+        app:layout_constraintGuide_percent="@fraction/poiCreationRightGuidePercentage"
+        android:orientation="vertical"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/top_guideline"
+        app:layout_constraintGuide_percent="@fraction/poiCreationTopGuidePercentage"
+        android:orientation="horizontal"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottom_guideline"
+        app:layout_constraintGuide_percent="@fraction/poiCreationBottomGuidePercentage"
+        android:orientation="horizontal"/>
+
+    <!--container-->
+    <RelativeLayout
+        android:id="@+id/my_pin_details_view_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline">
+
+        <RelativeLayout
+            android:id="@+id/my_pin_details_view_background"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/white">
+
+            <!--header-->
+            <RelativeLayout
+                android:id="@+id/my_pin_details_view_header"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/my_pin_details_view_report_pin_icon"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/report_pin_icon" />
+
+                <TextView
+                    android:id="@+id/my_pin_details_view_title"
+                    android:layout_toStartOf="@+id/my_pin_details_view_close_button"
+                    android:layout_toEndOf="@+id/my_pin_details_view_report_pin_icon"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textSize="24sp"
+                    android:textColor="@color/gold" />
+
+                <ImageView
+                    android:id="@+id/my_pin_details_view_close_button"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/button_pin_close_states" />
+            </RelativeLayout>
+
+            <!--line separator-->
+            <RelativeLayout
+                android:id="@+id/my_pin_details_view_header_separator"
+                android:layout_below="@+id/my_pin_details_view_header"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gold"/>
+
+            <!--body-->
+            <com.eegeo.ui.ScrollViewWithMaxHeight
+                android:id="@+id/my_pin_details_view_scroll_section"
+                android:layout_below="@+id/my_pin_details_view_header_separator"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:scrollbarThumbVertical="@color/scrollbars"
+                android:scrollbarSize="@dimen/scrollbars_width"
+                android:scrollbarFadeDuration="0">
+
+                <!--line separator-->
+                <LinearLayout
+                    android:id="@+id/my_pin_details_view_scroll_section_content"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/my_pin_details_view_image"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/poi_creation_details_image"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/image_blank"/>
+
+                    <RelativeLayout
+                        android:id="@+id/my_pin_details_view_scroll_section_separator"
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/gold"/>
+
+                    <TextView
+                        android:id="@+id/my_pin_details_view_description_header"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="Description"
+                        android:textSize="16sp"
+                        android:textColor="@color/gold"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/my_pin_details_view_description_body"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:textSize="16sp"
+                        android:textColor="@color/slateblue" />
+                </LinearLayout>
+            </com.eegeo.ui.ScrollViewWithMaxHeight>
+
+            <!--line separator-->
+            <RelativeLayout
+                android:id="@+id/my_pin_details_view_footer_separator"
+                android:layout_below="@+id/my_pin_details_view_scroll_section"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:background="@color/gold"/>
+
+            <!--footer-->
+            <RelativeLayout
+                android:id="@+id/my_pin_details_view_footer"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:background="@color/whitesmoke">
+
+                <ImageView
+                    android:id="@+id/my_pin_details_view_delete_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/bin_states"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/button_pressed_colour_change_pin_view"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

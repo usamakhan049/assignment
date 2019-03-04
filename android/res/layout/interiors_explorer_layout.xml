@@ -1,0 +1,52 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/interiors_explorer_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false" >
+
+    <LinearLayout 
+    android:id="@+id/top_panel"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:visibility="invisible" >
+        <TextView
+            android:id="@+id/floor_name"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:alpha="0.5"
+            android:textSize="18dp" >
+        </TextView>
+	</LinearLayout>
+	
+    <RelativeLayout
+        android:id="@+id/right_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingTop="100dp"
+        android:paddingBottom="45dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:layout_gravity="end"
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_exit_interior_background"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/button_exit_interior_states">
+        </ImageView>
+
+	    <include android:layout_marginTop="15dp"  android:layout_below="@+id/back_button" android:layout_width="70dp"  android:layout_height="150dp"  layout="@layout/interiors_floor_list_container_layout"/>
+	</RelativeLayout>
+
+</RelativeLayout>

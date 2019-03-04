@@ -1,0 +1,178 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    // generate gradlew wrapper files for specified version of gradle
+    gradleVersion = '4.6'
+}
+
+
+def getVersionCodeFromProjectProperty = { ->
+    def code = project.hasProperty('versionCode') ? versionCode.toInteger() : 1
+    logger.lifecycle("versionCode is set to $code")
+    return code
+}
+
+def getVersionNameFromProjectProperty = { ->
+    def name = project.hasProperty('versionName') ? versionName : "1.0"
+    logger.lifecycle("versionName is set to $name")
+    return name
+}
+
+def getApplicationIdFromProjectProperty = { ->
+    def applicationId = project.hasProperty('applicationId') ? applicationId : "com.eegeo.mobileexampleapp"
+    logger.lifecycle("applicationId is set to $applicationId")
+    return applicationId
+}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId getApplicationIdFromProjectProperty()
+        minSdkVersion 19
+        targetSdkVersion 28
+        multiDexEnabled true
+        versionCode getVersionCodeFromProjectProperty()
+        versionName getVersionNameFromProjectProperty()
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11",
+                    "-frtti",
+                    "-fexceptions",
+                    "-Werror",
+                    "-Wall",
+                    "-Wno-reorder"
+
+                arguments "-DANDROID_ARM_MODE=arm", "-DANDROID_STL=c++_static"
+            }
+
+            ndk {
+                abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            res.srcDirs = ['res']
+            java.srcDirs = ['src']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs', 'libs/indooratlas']
+        }
+
+        androidTest {
+            java.srcDirs = ['tests']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            externalNativeBuild {
+                cmake {
+                    cppFlags "-g"
+                    arguments "-DDEBUG=1"
+                }
+            }
+
+            jniDebuggable true
+            debuggable true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "main"
+
+    productFlavors {
+        normal {
+            dimension "main"
+        }
+
+        screenshot {
+            dimension "main"
+
+            externalNativeBuild {
+                cmake {
+                   cppFlags "-DAUTOMATED_SCREENSHOTS=1"
+                }
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            // Set path to external eegeo-mobile top CMakeLists here and in sdk/CMakeLists.txt
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+if (project.hasProperty("external.signing")) {
+
+    def signingGradle = project.property("external.signing") + ".gradle"
+    if (new File(signingGradle).exists()) {
+        logger.lifecycle("applying signing properties from " + signingGradle)
+        apply from: signingGradle
+    }
+    else {
+        throw new InvalidUserDataException('Project parameter external.signing supplied but gradle file does not exist at path relative to project: ' + signingGradlePath)
+    }
+} else {
+    logger.lifecycle("no external.signing property supplied." )
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    androidTestImplementation 'tools.fastlane:screengrab:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test:rules:0.5'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.volley:volley:1.1.0'
+
+    implementation ('com.android.support:appcompat-v7:27.1.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation project(':wrld-android-search-widget-release')
+    implementation project(':wrld-navigation-release')
+    implementation project(':wrld-navigation-widget-release')
+    implementation project(':wrld-navigation-search-release')
+}

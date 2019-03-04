@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrld_nav_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <com.wrld.widgets.navigation.widget.WrldNavWidget
+    android:id="@+id/wrld_nav_widget_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <com.wrld.widgets.navigation.search.WrldNavSearchLocationView
+        android:id="@+id/wrld_nav_search_widget_view"
+        android:layout_width="@dimen/nav_search_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_search_top_margin"
+        android:paddingLeft="@dimen/nav_search_margin"
+        android:paddingRight="@dimen/nav_search_margin"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/wrld_nav_search_hint_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/wrld_nav_small_margin"
+        android:orientation="horizontal"
+        android:background="@drawable/nav_search_hint_back"
+        android:layout_below="@id/wrld_nav_search_widget_view"
+        android:layout_marginStart="@dimen/nav_search_hint_margin"
+        android:elevation="@dimen/wrld_nav_large_margin">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="@dimen/wrld_nav_small_margin"
+            android:layout_gravity="center_vertical"
+            android:scaleType="center"
+            android:src="@drawable/searchbox_destination" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_search_hint_text"
+            android:textColor="@color/darkergrey"
+            android:layout_marginEnd="@dimen/wrld_nav_small_margin"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

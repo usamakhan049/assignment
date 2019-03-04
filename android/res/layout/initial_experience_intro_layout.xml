@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/initial_ux_view_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false" >
+    
+    <include layout="@layout/initial_experience_intro_welcome_layout" />
+
+    <!-- Search Menu dialog -->
+
+    <RelativeLayout
+        android:id="@+id/initial_ux_search_menu_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/menu_button_margin"
+        android:layout_marginTop="73dp">
+
+        <include layout="@layout/initial_experience_intro_dialog_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"/>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp">
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/arrow3_up_blue"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/arrow3_up"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+    <!-- Compass dialog -->
+
+    <LinearLayout
+        android:id="@+id/initial_ux_compass_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/initial_experience_intro_dialog_layout" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-2.5dp">
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="0.5dp"
+                android:src="@drawable/arrow3_down_blue"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3.5dp"
+                android:src="@drawable/arrow3_down"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

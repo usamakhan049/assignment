@@ -1,0 +1,1802 @@
+{
+    "pages": [
+        {
+            "width": 512, 
+            "file": "pin_sheet_0", 
+            "height": 512
+        }
+    ], 
+    "icons": [
+        {
+            "index": 0, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 184, 
+            "id": "blank"
+        }, 
+        {
+            "index": 1, 
+            "h": 8, 
+            "page": 0, 
+            "w": 8, 
+            "y": 0, 
+            "x": 496, 
+            "id": "label_point"
+        }, 
+        {
+            "index": 2, 
+            "h": 40, 
+            "page": 0, 
+            "w": 40, 
+            "y": 0, 
+            "x": 104, 
+            "id": "indoor_map"
+        }, 
+        {
+            "index": 3, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 213, 
+            "id": "park_outlined"
+        }, 
+        {
+            "index": 4, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 242, 
+            "id": "airport_outlined"
+        }, 
+        {
+            "index": 5, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 271, 
+            "id": "golf_outlined"
+        }, 
+        {
+            "index": 6, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 300, 
+            "id": "accessible"
+        }, 
+        {
+            "index": 7, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 329, 
+            "id": "accommodation"
+        }, 
+        {
+            "index": 8, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 358, 
+            "id": "airport"
+        }, 
+        {
+            "index": 9, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 387, 
+            "id": "alert"
+        }, 
+        {
+            "index": 10, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 416, 
+            "id": "art"
+        }, 
+        {
+            "index": 11, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 445, 
+            "id": "atm"
+        }, 
+        {
+            "index": 12, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 39, 
+            "x": 474, 
+            "id": "badge_reader"
+        }, 
+        {
+            "index": 13, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 41, 
+            "x": 104, 
+            "id": "bank"
+        }, 
+        {
+            "index": 14, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 43, 
+            "x": 61, 
+            "id": "bathroom"
+        }, 
+        {
+            "index": 15, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 61, 
+            "x": 0, 
+            "id": "bed_breakfast"
+        }, 
+        {
+            "index": 16, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 61, 
+            "x": 29, 
+            "id": "beer"
+        }, 
+        {
+            "index": 17, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 184, 
+            "id": "bin"
+        }, 
+        {
+            "index": 18, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 213, 
+            "id": "bin_full"
+        }, 
+        {
+            "index": 19, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 242, 
+            "id": "blue_meter"
+        }, 
+        {
+            "index": 20, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 271, 
+            "id": "border"
+        }, 
+        {
+            "index": 21, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 300, 
+            "id": "burgers"
+        }, 
+        {
+            "index": 22, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 329, 
+            "id": "bus"
+        }, 
+        {
+            "index": 23, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 358, 
+            "id": "business"
+        }, 
+        {
+            "index": 24, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 387, 
+            "id": "camping"
+        }, 
+        {
+            "index": 25, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 416, 
+            "id": "casino"
+        }, 
+        {
+            "index": 26, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 445, 
+            "id": "charge_point"
+        }, 
+        {
+            "index": 27, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 68, 
+            "x": 474, 
+            "id": "childcare"
+        }, 
+        {
+            "index": 28, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 70, 
+            "x": 90, 
+            "id": "chinese_thai"
+        }, 
+        {
+            "index": 29, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 72, 
+            "x": 58, 
+            "id": "christianity"
+        }, 
+        {
+            "index": 30, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 78, 
+            "x": 119, 
+            "id": "church"
+        }, 
+        {
+            "index": 31, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 78, 
+            "x": 148, 
+            "id": "cinema"
+        }, 
+        {
+            "index": 32, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 90, 
+            "x": 0, 
+            "id": "click_and_collect"
+        }, 
+        {
+            "index": 33, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 90, 
+            "x": 29, 
+            "id": "co_two_detector"
+        }, 
+        {
+            "index": 34, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 177, 
+            "id": "cocktail"
+        }, 
+        {
+            "index": 35, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 206, 
+            "id": "coffee"
+        }, 
+        {
+            "index": 36, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 235, 
+            "id": "collaboration_space"
+        }, 
+        {
+            "index": 37, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 264, 
+            "id": "cycling"
+        }, 
+        {
+            "index": 38, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 293, 
+            "id": "defibrillator"
+        }, 
+        {
+            "index": 39, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 322, 
+            "id": "dentist"
+        }, 
+        {
+            "index": 40, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 351, 
+            "id": "department"
+        }, 
+        {
+            "index": 41, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 380, 
+            "id": "desk"
+        }, 
+        {
+            "index": 42, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 409, 
+            "id": "digital_sign"
+        }, 
+        {
+            "index": 43, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 438, 
+            "id": "dining_room"
+        }, 
+        {
+            "index": 44, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 97, 
+            "x": 467, 
+            "id": "donuts"
+        }, 
+        {
+            "index": 45, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 99, 
+            "x": 87, 
+            "id": "driveway"
+        }, 
+        {
+            "index": 46, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 101, 
+            "x": 58, 
+            "id": "education"
+        }, 
+        {
+            "index": 47, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 107, 
+            "x": 116, 
+            "id": "electricity_meter"
+        }, 
+        {
+            "index": 48, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 107, 
+            "x": 145, 
+            "id": "elevator"
+        }, 
+        {
+            "index": 49, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 119, 
+            "x": 0, 
+            "id": "emergency_exit"
+        }, 
+        {
+            "index": 50, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 119, 
+            "x": 29, 
+            "id": "entertainment"
+        }, 
+        {
+            "index": 51, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 174, 
+            "id": "escalator"
+        }, 
+        {
+            "index": 52, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 203, 
+            "id": "events"
+        }, 
+        {
+            "index": 53, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 232, 
+            "id": "facebook"
+        }, 
+        {
+            "index": 54, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 261, 
+            "id": "farm"
+        }, 
+        {
+            "index": 55, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 290, 
+            "id": "fashion"
+        }, 
+        {
+            "index": 56, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 319, 
+            "id": "fashion_kids"
+        }, 
+        {
+            "index": 57, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 348, 
+            "id": "fashion_men"
+        }, 
+        {
+            "index": 58, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 377, 
+            "id": "fashion_women"
+        }, 
+        {
+            "index": 59, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 406, 
+            "id": "ferry"
+        }, 
+        {
+            "index": 60, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 435, 
+            "id": "fire"
+        }, 
+        {
+            "index": 61, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 126, 
+            "x": 464, 
+            "id": "fireplace"
+        }, 
+        {
+            "index": 62, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 128, 
+            "x": 87, 
+            "id": "fire_extinguisher"
+        }, 
+        {
+            "index": 63, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 130, 
+            "x": 58, 
+            "id": "first_aid"
+        }, 
+        {
+            "index": 64, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 136, 
+            "x": 116, 
+            "id": "fishing"
+        }, 
+        {
+            "index": 65, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 136, 
+            "x": 145, 
+            "id": "florist"
+        }, 
+        {
+            "index": 66, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 148, 
+            "x": 0, 
+            "id": "food_drink"
+        }, 
+        {
+            "index": 67, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 148, 
+            "x": 29, 
+            "id": "football"
+        }, 
+        {
+            "index": 68, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 174, 
+            "id": "forest"
+        }, 
+        {
+            "index": 69, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 203, 
+            "id": "fridge"
+        }, 
+        {
+            "index": 70, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 232, 
+            "id": "fuel"
+        }, 
+        {
+            "index": 71, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 261, 
+            "id": "gallery"
+        }, 
+        {
+            "index": 72, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 290, 
+            "id": "gas_meter"
+        }, 
+        {
+            "index": 73, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 319, 
+            "id": "general"
+        }, 
+        {
+            "index": 74, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 348, 
+            "id": "golf"
+        }, 
+        {
+            "index": 75, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 377, 
+            "id": "google_plus"
+        }, 
+        {
+            "index": 76, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 406, 
+            "id": "groceries"
+        }, 
+        {
+            "index": 77, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 435, 
+            "id": "health"
+        }, 
+        {
+            "index": 78, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 155, 
+            "x": 464, 
+            "id": "historic_monument"
+        }, 
+        {
+            "index": 79, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 157, 
+            "x": 87, 
+            "id": "home"
+        }, 
+        {
+            "index": 80, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 159, 
+            "x": 58, 
+            "id": "homeware"
+        }, 
+        {
+            "index": 81, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 165, 
+            "x": 116, 
+            "id": "home_apartment"
+        }, 
+        {
+            "index": 82, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 165, 
+            "x": 145, 
+            "id": "hospital"
+        }, 
+        {
+            "index": 83, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 177, 
+            "x": 0, 
+            "id": "hostel"
+        }, 
+        {
+            "index": 84, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 177, 
+            "x": 29, 
+            "id": "hotel"
+        }, 
+        {
+            "index": 85, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 174, 
+            "id": "hvac_unit"
+        }, 
+        {
+            "index": 86, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 203, 
+            "id": "indian"
+        }, 
+        {
+            "index": 87, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 232, 
+            "id": "islam"
+        }, 
+        {
+            "index": 88, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 261, 
+            "id": "judaism"
+        }, 
+        {
+            "index": 89, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 290, 
+            "id": "kitchen"
+        }, 
+        {
+            "index": 90, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 319, 
+            "id": "lake"
+        }, 
+        {
+            "index": 91, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 348, 
+            "id": "library"
+        }, 
+        {
+            "index": 92, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 377, 
+            "id": "lifeguard"
+        }, 
+        {
+            "index": 93, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 406, 
+            "id": "limo"
+        }, 
+        {
+            "index": 94, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 435, 
+            "id": "link"
+        }, 
+        {
+            "index": 95, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 184, 
+            "x": 464, 
+            "id": "lockers"
+        }, 
+        {
+            "index": 96, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 186, 
+            "x": 87, 
+            "id": "lodge"
+        }, 
+        {
+            "index": 97, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 188, 
+            "x": 58, 
+            "id": "logistics"
+        }, 
+        {
+            "index": 98, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 194, 
+            "x": 116, 
+            "id": "meeting_room"
+        }, 
+        {
+            "index": 99, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 194, 
+            "x": 145, 
+            "id": "meeting_room_available"
+        }, 
+        {
+            "index": 100, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 206, 
+            "x": 0, 
+            "id": "meeting_room_available_soon"
+        }, 
+        {
+            "index": 101, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 206, 
+            "x": 29, 
+            "id": "meeting_room_unavailable"
+        }, 
+        {
+            "index": 102, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 174, 
+            "id": "message"
+        }, 
+        {
+            "index": 103, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 203, 
+            "id": "meter"
+        }, 
+        {
+            "index": 104, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 232, 
+            "id": "mobile_phone"
+        }, 
+        {
+            "index": 105, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 261, 
+            "id": "mountain"
+        }, 
+        {
+            "index": 106, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 290, 
+            "id": "music"
+        }, 
+        {
+            "index": 107, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 319, 
+            "id": "my_location"
+        }, 
+        {
+            "index": 108, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 348, 
+            "id": "night_shopping"
+        }, 
+        {
+            "index": 109, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 377, 
+            "id": "observation_point"
+        }, 
+        {
+            "index": 110, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 406, 
+            "id": "observatory"
+        }, 
+        {
+            "index": 111, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 435, 
+            "id": "occupancy_sensor"
+        }, 
+        {
+            "index": 112, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 213, 
+            "x": 464, 
+            "id": "offices"
+        }, 
+        {
+            "index": 113, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 215, 
+            "x": 87, 
+            "id": "oven"
+        }, 
+        {
+            "index": 114, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 217, 
+            "x": 58, 
+            "id": "park"
+        }, 
+        {
+            "index": 115, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 223, 
+            "x": 116, 
+            "id": "parking"
+        }, 
+        {
+            "index": 116, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 223, 
+            "x": 145, 
+            "id": "payphone"
+        }, 
+        {
+            "index": 117, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 235, 
+            "x": 0, 
+            "id": "person"
+        }, 
+        {
+            "index": 118, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 235, 
+            "x": 29, 
+            "id": "penguin"
+        }, 
+        {
+            "index": 119, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 174, 
+            "id": "pharmacy"
+        }, 
+        {
+            "index": 120, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 203, 
+            "id": "photo"
+        }, 
+        {
+            "index": 121, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 232, 
+            "id": "picasa"
+        }, 
+        {
+            "index": 122, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 261, 
+            "id": "pin"
+        }, 
+        {
+            "index": 123, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 290, 
+            "id": "pizza"
+        }, 
+        {
+            "index": 124, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 319, 
+            "id": "place_of_worship"
+        }, 
+        {
+            "index": 125, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 348, 
+            "id": "playing_field"
+        }, 
+        {
+            "index": 126, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 377, 
+            "id": "police"
+        }, 
+        {
+            "index": 127, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 406, 
+            "id": "positioning_beacon"
+        }, 
+        {
+            "index": 128, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 435, 
+            "id": "post_office"
+        }, 
+        {
+            "index": 129, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 242, 
+            "x": 464, 
+            "id": "printer"
+        }, 
+        {
+            "index": 130, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 244, 
+            "x": 87, 
+            "id": "race_track"
+        }, 
+        {
+            "index": 131, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 246, 
+            "x": 58, 
+            "id": "reception"
+        }, 
+        {
+            "index": 132, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 252, 
+            "x": 116, 
+            "id": "remote_control"
+        }, 
+        {
+            "index": 133, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 252, 
+            "x": 145, 
+            "id": "river"
+        }, 
+        {
+            "index": 134, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 264, 
+            "x": 0, 
+            "id": "sailing"
+        }, 
+        {
+            "index": 135, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 264, 
+            "x": 29, 
+            "id": "seafood"
+        }, 
+        {
+            "index": 136, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 174, 
+            "id": "security_alarm"
+        }, 
+        {
+            "index": 137, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 203, 
+            "id": "security_camera"
+        }, 
+        {
+            "index": 138, 
+            "h": 42, 
+            "page": 0, 
+            "w": 42, 
+            "y": 0, 
+            "x": 61, 
+            "id": "selected_pin"
+        }, 
+        {
+            "index": 139, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 232, 
+            "id": "shooting"
+        }, 
+        {
+            "index": 140, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 261, 
+            "id": "shopping"
+        }, 
+        {
+            "index": 141, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 290, 
+            "id": "skiing"
+        }, 
+        {
+            "index": 142, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 319, 
+            "id": "smart_post"
+        }, 
+        {
+            "index": 143, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 348, 
+            "id": "smoke_detector"
+        }, 
+        {
+            "index": 144, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 377, 
+            "id": "solar_panels"
+        }, 
+        {
+            "index": 145, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 406, 
+            "id": "spa"
+        }, 
+        {
+            "index": 146, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 435, 
+            "id": "sports"
+        }, 
+        {
+            "index": 147, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 271, 
+            "x": 464, 
+            "id": "sports_field"
+        }, 
+        {
+            "index": 148, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 273, 
+            "x": 87, 
+            "id": "stairs"
+        }, 
+        {
+            "index": 149, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 275, 
+            "x": 58, 
+            "id": "star"
+        }, 
+        {
+            "index": 150, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 281, 
+            "x": 116, 
+            "id": "stationery"
+        }, 
+        {
+            "index": 151, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 281, 
+            "x": 145, 
+            "id": "steak"
+        }, 
+        {
+            "index": 152, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 293, 
+            "x": 0, 
+            "id": "storage"
+        }, 
+        {
+            "index": 153, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 293, 
+            "x": 29, 
+            "id": "subway"
+        }, 
+        {
+            "index": 154, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 174, 
+            "id": "sushi"
+        }, 
+        {
+            "index": 155, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 203, 
+            "id": "taxi"
+        }, 
+        {
+            "index": 156, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 232, 
+            "id": "technology"
+        }, 
+        {
+            "index": 157, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 261, 
+            "id": "telephone_booth"
+        }, 
+        {
+            "index": 158, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 290, 
+            "id": "temperature_sensor"
+        }, 
+        {
+            "index": 159, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 319, 
+            "id": "thermostat"
+        }, 
+        {
+            "index": 160, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 348, 
+            "id": "ticket"
+        }, 
+        {
+            "index": 161, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 377, 
+            "id": "toilet_ladies"
+        }, 
+        {
+            "index": 162, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 406, 
+            "id": "toilet_men"
+        }, 
+        {
+            "index": 163, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 435, 
+            "id": "tourist_info"
+        }, 
+        {
+            "index": 164, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 300, 
+            "x": 464, 
+            "id": "town_hall"
+        }, 
+        {
+            "index": 165, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 302, 
+            "x": 87, 
+            "id": "traffic_counter"
+        }, 
+        {
+            "index": 166, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 304, 
+            "x": 58, 
+            "id": "train"
+        }, 
+        {
+            "index": 167, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 310, 
+            "x": 116, 
+            "id": "tram"
+        }, 
+        {
+            "index": 168, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 310, 
+            "x": 145, 
+            "id": "twitter"
+        }, 
+        {
+            "index": 169, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 322, 
+            "x": 0, 
+            "id": "uber"
+        }, 
+        {
+            "index": 170, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 322, 
+            "x": 29, 
+            "id": "vegan"
+        }, 
+        {
+            "index": 171, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 174, 
+            "id": "vegetarian"
+        }, 
+        {
+            "index": 172, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 203, 
+            "id": "vet"
+        }, 
+        {
+            "index": 173, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 232, 
+            "id": "video"
+        }, 
+        {
+            "index": 174, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 261, 
+            "id": "video_conference"
+        }, 
+        {
+            "index": 175, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 290, 
+            "id": "vimeo"
+        }, 
+        {
+            "index": 176, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 319, 
+            "id": "virtual_tour"
+        }, 
+        {
+            "index": 177, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 348, 
+            "id": "vr_experience"
+        }, 
+        {
+            "index": 178, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 377, 
+            "id": "warning"
+        }, 
+        {
+            "index": 179, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 406, 
+            "id": "washing_machine"
+        }, 
+        {
+            "index": 180, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 435, 
+            "id": "water_meter"
+        }, 
+        {
+            "index": 181, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 329, 
+            "x": 464, 
+            "id": "wikipedia"
+        }, 
+        {
+            "index": 182, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 331, 
+            "x": 87, 
+            "id": "wind_turbine"
+        }, 
+        {
+            "index": 183, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 333, 
+            "x": 58, 
+            "id": "wine"
+        }, 
+        {
+            "index": 184, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 339, 
+            "x": 116, 
+            "id": "wi_fi_point"
+        }, 
+        {
+            "index": 185, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 339, 
+            "x": 145, 
+            "id": "working_group"
+        }, 
+        {
+            "index": 186, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 351, 
+            "x": 0, 
+            "id": "youtube"
+        }, 
+        {
+            "index": 187, 
+            "h": 28, 
+            "page": 0, 
+            "w": 28, 
+            "y": 351, 
+            "x": 29, 
+            "id": "zoo"
+        }, 
+        {
+            "index": 188, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 145, 
+            "id": "nav_enter"
+        }, 
+        {
+            "index": 189, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 184, 
+            "id": "nav_exit"
+        }, 
+        {
+            "index": 190, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 223, 
+            "id": "nav_start"
+        }, 
+        {
+            "index": 191, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 262, 
+            "id": "nav_finish"
+        }, 
+        {
+            "index": 192, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 301, 
+            "id": "nav_stairs_up"
+        }, 
+        {
+            "index": 193, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 340, 
+            "id": "nav_stairs_down"
+        }, 
+        {
+            "index": 194, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 379, 
+            "id": "nav_escalator_up"
+        }, 
+        {
+            "index": 195, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 418, 
+            "id": "nav_escalator_down"
+        }, 
+        {
+            "index": 196, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 0, 
+            "x": 457, 
+            "id": "nav_lift"
+        }, 
+        {
+            "index": 197, 
+            "h": 38, 
+            "page": 0, 
+            "w": 38, 
+            "y": 39, 
+            "x": 145, 
+            "id": "nav_crosslights"
+        }, 
+        {
+            "index": 198, 
+            "h": 60, 
+            "page": 0, 
+            "w": 60, 
+            "y": 0, 
+            "x": 0, 
+            "id": "nav_container"
+        }
+    ]
+}
